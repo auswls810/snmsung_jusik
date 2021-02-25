@@ -13,10 +13,11 @@ class MybotsSpider(scrapy.Spider):
 
         items = []
         item = JusikItem()
-        item['code']=codes[0]
+        item['code']=codes[0]      
         item['price'] = blinds[36]
         item['total']= blinds[42]
         item['high'] = blinds[40]
         item['low'] = blinds[44]
         items.append(item)
+        
         return items

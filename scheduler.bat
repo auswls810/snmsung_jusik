@@ -1,0 +1,1 @@
+schtasks /create /tn "test" /tr C:\Users\A0501660\Desktop\execute.bat /sc minute /mo 10
